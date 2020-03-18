@@ -60,20 +60,26 @@ header{
   color:black;
   font-size: 1.5rem;
   margin-top: 16vh;
-display: flex;
+  display: flex;
 }
-main{
+.container{
   display: flex;
   flex-direction: column;
   font-size: 1.5rem;
   color:black;
+  text-align: left;
 
 }
-main div{
-  background-color:  rgba(21, 111, 172,0.4);
+.container ul{
+
+  background-color: white;
   border:1px solid black;
   margin-top:0.5rem;
-  justify-self: center;
+  
+}
+select{
+  font-size: 1.5rem;
+  margin-right: 1rem;
 }
 footer{
   position: fixed;
