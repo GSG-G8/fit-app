@@ -64,7 +64,16 @@ display: flex;
 }
 main{
   display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  color:black;
 
+}
+main div{
+  background-color:  rgba(21, 111, 172,0.4);
+  border:1px solid black;
+  margin-top:0.5rem;
+  justify-self: center;
 }
 footer{
   position: fixed;
