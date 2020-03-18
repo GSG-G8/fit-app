@@ -1,24 +1,26 @@
 import React from 'react';
 import './App.css';
-import logo from './logo.svg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <header>
+       <h1>
+       fit-app
+       </h1>
+       <p>
+         get ready to add your fitness schedule for this week
+         </p>
+         </header>
+         <form>
+
+         </form>
+         <main>
+
+         </main>
+        <footer>
+          all rights reserved © 2020
+        </footer>
     </div>
   );
 }

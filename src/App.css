@@ -1,3 +1,4 @@
+/* default style from react */
 .App {
   text-align: center;
 }
@@ -35,4 +36,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* myStyle */
+body{
+  background-image:url('./resources/backgroundImg.png');
+  background-size: 50%;
+  color: white;
+}
+header{
+  position: fixed;
+  top:0;
+  background-color: rgba(21, 111, 172,0.9);
+  width:100vw;
+
+}
+form{
+display: flex;
+}
+main{
+  display: flex;
+
+}
+footer{
+  position: fixed;
+  padding:0.5rem;
+  bottom :0 ;
+  text-align: center;
+  width:100vw;
+  background-color: rgba(21, 111, 172,0.9);
 }
