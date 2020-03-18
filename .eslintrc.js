@@ -21,6 +21,7 @@ module.exports = {
   },
   'rules': {
     //  allow .js extensions for JSX.
+    "react/state-in-constructor": 0,
     'react/jsx-filename-extension': [
       1,
       {
