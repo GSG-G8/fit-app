@@ -67,7 +67,7 @@ class ActivityForm extends React.Component {
         <div className="container">
           {data.days.map(e => (
             <ul className={e}>
-              {e}
+              <span className="container-day">{e}</span>
               {this.state.userData[e].map(e => (
                 <li key={e}>{e}</li>
               ))}
