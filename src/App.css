@@ -39,19 +39,27 @@
 }
 
 /* myStyle */
+
 body{
   background-image:url('./resources/backgroundImg.png');
   background-size: 50%;
   color: white;
+  font-size:62.5%
 }
 header{
   position: fixed;
   top:0;
   background-color: rgba(21, 111, 172,0.9);
   width:100vw;
+  height: 15vh;
+  font-size: 1rem;
 
 }
-form{
+.activity{
+  background-color:  rgba(21, 111, 172,0.4);
+  color:black;
+  font-size: 1.5rem;
+  margin-top: 16vh;
 display: flex;
 }
 main{
