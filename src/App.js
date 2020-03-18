@@ -1,8 +1,18 @@
 import React from 'react';
 import './App.css';
+import ActivityForm from './Components/ActivtyForm';
+import DayForm from './Components/DayForm';
 
-function App() {
-  return (
+class App extends React.Component {
+   state={
+    day:'Sunday',
+    activity:'Walking'
+  }
+
+
+  render(){
+    let {day, activity}= this.state
+    return (
     <div className="App">
      <header>
        <h1>
@@ -12,9 +22,14 @@ function App() {
          get ready to add your fitness schedule for this week
          </p>
          </header>
-         <form>
 
-         </form>
+          <div className="activity">       
+            <ActivityForm />
+            <DayForm />
+            <button>  
+              add to schedule
+            </button>
+            </div> 
          <main>
 
          </main>
@@ -22,7 +37,8 @@ function App() {
           all rights reserved © 2020
         </footer>
     </div>
-  );
+    )
+};
 }
 
 export default App;
